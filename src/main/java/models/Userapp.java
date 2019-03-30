@@ -1,12 +1,15 @@
 package models;
 
+import jwt.Role;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Entity
 @NamedQueries({
         @NamedQuery(name = "Userapp.findOne", query = "select p from Userapp p where p.id = :id"),
-        @NamedQuery(name = "Userapp.getAll", query = "select p from Userapp p")
+        @NamedQuery(name = "Userapp.getAll", query = "select p from Userapp p"),
+        @NamedQuery(name = "Userapp.checkcreds", query = "select p from Userapp p where p.username = :username and p.password = :password")
 }
 )
 public class Userapp {
@@ -34,6 +37,13 @@ public class Userapp {
     public void setPassword(String password) {
         this.password = password;
     }
+    public Role getRole() {
+        return role;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
 
     @Id
     @GeneratedValue
@@ -42,12 +52,17 @@ public class Userapp {
     private String username;
     private String password;
 
+
+
+    private Role role;
+
     public Userapp() {
     }
 
-    public Userapp(String username, String password) {
+    public Userapp(String username, String password, Role role) {
         this.username = username;
         this.password = password;
+        this.role = role;
     }
 
 

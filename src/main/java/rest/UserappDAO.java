@@ -6,6 +6,7 @@ import models.Userapp;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.xml.registry.infomodel.User;
 import java.util.List;
 
 
@@ -21,6 +22,10 @@ public class UserappDAO {
 
     public Userapp find(Long id) {
         return entityManager.createNamedQuery("Userapp.findOne", Userapp.class).setParameter("id", id).getSingleResult();
+    }
+
+    public Userapp checkCreds(String username, String password){
+        return entityManager.createNamedQuery("Userapp.checkcreds", Userapp.class).setParameter("username", username).setParameter("password",password).getSingleResult();
     }
 
     public void save(Userapp person) {

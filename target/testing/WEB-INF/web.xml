@@ -21,15 +21,18 @@
     <url-pattern>/resources/*</url-pattern>
   </servlet-mapping>
 
-<security-constraint>
-  <web-resource-collection>
-    <web-resource-name>userapp</web-resource-name>
-    <url-pattern>/resources/*</url-pattern>
-  </web-resource-collection>
-  <auth-constraint>
-    <role-name>a</role-name>
-  </auth-constraint>
-</security-constraint>
+<!--<security-constraint>-->
+  <!--<web-resource-collection>-->
+    <!--<web-resource-name>userapp</web-resource-name>-->
+    <!--<url-pattern>/resources/*</url-pattern>-->
+  <!--</web-resource-collection>-->
+  <!--<auth-constraint>-->
+    <!--<role-name>a</role-name>-->
+  <!--</auth-constraint>-->
+<!--</security-constraint>-->
+
+
+
   <!--<security-constraint>-->
     <!--<web-resource-collection>-->
       <!--<web-resource-name>userapp2</web-resource-name>-->
