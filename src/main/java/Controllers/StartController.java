@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet( name="ListServlet", displayName="ListServlet", urlPatterns = {""}, loadOnStartup=1)
+@WebServlet( name="ListServlet", displayName="ListServlet", urlPatterns = {"/firstpage"}, loadOnStartup=1)
 public class StartController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

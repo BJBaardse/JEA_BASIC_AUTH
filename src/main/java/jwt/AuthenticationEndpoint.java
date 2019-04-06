@@ -10,6 +10,8 @@ import javax.ejb.EJB;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.Calendar;
+import java.util.Date;
 
 @Path("authentication")
 public class AuthenticationEndpoint {
@@ -49,6 +51,9 @@ public class AuthenticationEndpoint {
         // Issue a token (can be a random String persisted to a database or a JWT token)
         // The issued token must be associated to a user
         // Return the issued token
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(new Date());
+        cal.add(Calendar.MINUTE, 90);
         try {
             Algorithm algorithm = Algorithm.HMAC256("ikhaatfrontend");
             String token = JWT.create()
@@ -56,6 +61,8 @@ public class AuthenticationEndpoint {
                     .withClaim("username",user.getUsername())
                     .withClaim("ID",user.getId())
                     .withClaim("Roles" , String.valueOf(user.getRole()))
+                    .withExpiresAt(cal.getTime())
+                    .withIssuedAt(new Date())
                     .sign(algorithm);
             return token;
 
