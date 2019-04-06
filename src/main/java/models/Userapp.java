@@ -51,9 +51,7 @@ public class Userapp {
     @NotNull
     private String username;
     private String password;
-
-
-
+    
     private Role role;
 
     public Userapp() {

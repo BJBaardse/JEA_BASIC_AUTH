@@ -1,5 +1,6 @@
 package Resource;
 
+import jwt.JWTTokenNeeded;
 import models.Userapp;
 import rest.UserappDAO;
 
@@ -17,6 +18,7 @@ public class UserResource {
 
 
     @GET
+    @JWTTokenNeeded
     @Produces("application/json")
     public List<Userapp> all() {
         return userappDAO.getAll();
