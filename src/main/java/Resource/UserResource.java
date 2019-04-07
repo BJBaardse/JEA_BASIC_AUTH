@@ -1,6 +1,7 @@
 package Resource;
 
 import jwt.JWTTokenNeeded;
+import jwt.Role;
 import models.Userapp;
 import rest.UserappDAO;
 
@@ -18,7 +19,7 @@ public class UserResource {
 
 
     @GET
-    @JWTTokenNeeded
+    @JWTTokenNeeded(Permissions = Role.Admin)
     @Produces("application/json")
     public List<Userapp> all() {
         return userappDAO.getAll();

@@ -76,7 +76,7 @@ public class AuthenticationEndpoint {
                 .setExpiration(cal.getTime())
                 .claim("username", user.getUsername())
                 .claim("ID", user.getId())
-                .claim("Roles", String.valueOf(user.getRole()))
+                .claim("Role", String.valueOf(user.getRole()))
                 .setIssuedAt(new Date())
                 .signWith(
                         SignatureAlgorithm.HS256,
