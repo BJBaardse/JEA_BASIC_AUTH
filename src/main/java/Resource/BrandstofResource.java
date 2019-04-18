@@ -36,7 +36,6 @@ public class BrandstofResource {
     public Response update(Brandstof brandstof){
         brandstofDao.update(brandstof);
         return Response.status(200).build();
-
     }
 
 }
