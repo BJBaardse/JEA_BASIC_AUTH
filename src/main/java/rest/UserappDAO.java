@@ -2,6 +2,7 @@ package rest;
 
 
 import models.Userapp;
+import sun.rmi.runtime.Log;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -29,7 +30,7 @@ public class UserappDAO {
     }
 
     public void save(Userapp person) {
-        entityManager.persist(person);
+         entityManager.persist(person);
     }
 
     public void update(Userapp person) {

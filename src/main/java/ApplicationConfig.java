@@ -1,3 +1,4 @@
+import Resource.BrandstofResource;
 import Resource.UserResource;
 
 import javax.ws.rs.core.Application;
@@ -15,5 +16,6 @@ public class ApplicationConfig extends Application {
 
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(UserResource.class);
+        resources.add(BrandstofResource.class);
     }
 }

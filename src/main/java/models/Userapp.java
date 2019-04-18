@@ -10,6 +10,7 @@ import javax.validation.constraints.NotNull;
         @NamedQuery(name = "Userapp.findOne", query = "select p from Userapp p where p.id = :id"),
         @NamedQuery(name = "Userapp.getAll", query = "select p from Userapp p"),
         @NamedQuery(name = "Userapp.checkcreds", query = "select p from Userapp p where p.username = :username and p.password = :password")
+
 }
 )
 public class Userapp {

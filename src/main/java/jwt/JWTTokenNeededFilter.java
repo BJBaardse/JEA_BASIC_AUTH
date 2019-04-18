@@ -49,6 +49,7 @@ public class JWTTokenNeededFilter implements ContainerRequestFilter {
 
                     // if role allowed != role jwt -> UNAUTHORIZED
                     if (!permission.equals(roleUser)) {
+                        requestContext.abortWith(Response.status(401).build());
                         throw new Exception("no roles");
                     }
 

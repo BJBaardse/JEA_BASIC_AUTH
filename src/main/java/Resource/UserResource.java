@@ -46,12 +46,12 @@ public class UserResource {
         userappDAO.update(person);
     }
 
-    @DELETE
-    @Path("/{id}")
-    @Consumes("application/json")
-    public void delete(@PathParam("id") Long id) {
-        Userapp person = userappDAO.find(id);
-        userappDAO.delete(person);
-    }
+//    @DELETE
+//    @Path("/{id}")
+//    @Consumes("application/json")
+//    public void delete(@PathParam("id") Long id) {
+//        Userapp person = userappDAO.find(id);
+//        userappDAO.delete(person);
+//    }
 }
 

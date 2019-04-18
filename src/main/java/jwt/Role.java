@@ -3,5 +3,6 @@ package jwt;
 public enum Role {
     Shell,
     Tankstation,
-    User
+    User,
+    NoRights
 }
