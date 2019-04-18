@@ -1,13 +1,16 @@
 package models;
 
 import javax.jws.soap.SOAPBinding;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Null;
 import javax.xml.registry.infomodel.User;
-
+@Entity
+@NamedQueries({
+        @NamedQuery(name = "Tankbeurt.getall", query = "select p from Tankbeurt p")
+}
+)
 public class Tankbeurt {
     public int getId() {
         return id;
