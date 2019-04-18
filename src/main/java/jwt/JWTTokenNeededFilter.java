@@ -38,13 +38,16 @@ public class JWTTokenNeededFilter implements ContainerRequestFilter {
 
             Method method =resourceInfo.getResourceMethod();
             if( method != null){
+                // Get allowed permission on method
                 JWTTokenNeeded JWTContext = method.getAnnotation(JWTTokenNeeded.class);
                 Role permission =  JWTContext.Permissions();
+
                 if(permission != Role.NoRights ) {
+                    // Get Role from jwt
                     String roles = claims.get("Role", String.class);
-                   // String roles = Jwts.claims().get("Role").toString();
                     Role roleUser = Role.valueOf(roles);
 
+                    // if role allowed != role jwt -> UNAUTHORIZED
                     if (!permission.equals(roleUser)) {
                         throw new Exception("no roles");
                     }

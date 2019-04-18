@@ -19,7 +19,7 @@ public class UserResource {
 
 
     @GET
-    @JWTTokenNeeded(Permissions = Role.Admin)
+    @JWTTokenNeeded(Permissions = Role.Shell)
     @Produces("application/json")
     public List<Userapp> all() {
         return userappDAO.getAll();
