@@ -8,6 +8,7 @@ import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 @Entity
 @NamedQueries({
+        @NamedQuery(name = "Brandstof.findone", query = "select p from Brandstof p where p.id = :id"),
         @NamedQuery(name = "Brandstof.getall", query = "select p from Brandstof p")
 }
 )

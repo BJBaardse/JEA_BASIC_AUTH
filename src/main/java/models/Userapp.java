@@ -8,6 +8,7 @@ import javax.validation.constraints.NotNull;
 @Entity
 @NamedQueries({
         @NamedQuery(name = "Userapp.findOne", query = "select p from Userapp p where p.id = :id"),
+        @NamedQuery(name = "Userapp.findStations", query = "select p from Userapp p where p.role = 1"),
         @NamedQuery(name = "Userapp.getAll", query = "select p from Userapp p"),
         @NamedQuery(name = "Userapp.checkcreds", query = "select p from Userapp p where p.username = :username and p.password = :password")
 
@@ -15,11 +16,11 @@ import javax.validation.constraints.NotNull;
 )
 public class Userapp {
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -48,7 +49,7 @@ public class Userapp {
 
     @Id
     @GeneratedValue
-    private long id;
+    private int id;
     @NotNull
     private String username;
     private String password;

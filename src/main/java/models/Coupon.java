@@ -11,7 +11,9 @@ import javax.validation.constraints.NotNull;
 import javax.ws.rs.DefaultValue;
 @Entity
 @NamedQueries({
-        @NamedQuery(name = "Coupon.getall", query = "select p from Coupon p")
+        @NamedQuery(name = "Coupon.getall", query = "select p from Coupon p"),
+        @NamedQuery(name = "Coupon.findOne", query = "select p from Coupon p where p.couponCode = :code")
+
 }
 )
 public class Coupon {
@@ -55,11 +57,11 @@ public class Coupon {
         this.allowed = allowed;
     }
 
-    public int getPercentOff() {
+    public double getPercentOff() {
         return percentOff;
     }
 
-    public void setPercentOff(int percentOff) {
+    public void setPercentOff(double percentOff) {
         this.percentOff = percentOff;
     }
 
@@ -80,11 +82,11 @@ public class Coupon {
     @Min(0)
     @Max(100)
     @NotNull
-    int percentOff;
+    double percentOff;
     public Coupon(){
 
     }
-    public Coupon(String code, int allowed, int percent){
+    public Coupon(String code, int allowed, double percent){
         couponCode = code;
         this.allowed = allowed;
         percentOff = percent;

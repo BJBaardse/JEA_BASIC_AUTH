@@ -8,8 +8,20 @@
   <component name="ChangeListManager">
     <list default="true" id="4244f4e6-875a-4248-bcb9-444a2284b98c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Resource/TankbeurtResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Resource/TankbeurtResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Resource/UserResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Tests/UserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tests/UserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jwt/AuthenticationEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jwt/AuthenticationEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Brandstof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Brandstof.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Coupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Coupon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Tankbeurt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Tankbeurt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Userapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Userapp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/BrandstofDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/BrandstofDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/TankbeurtDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/TankbeurtDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/UserappDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/UserappDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/testing/WEB-INF/classes/Resource/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/testing/WEB-INF/classes/Resource/UserResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/testing/WEB-INF/classes/models/Userapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/testing/WEB-INF/classes/models/Userapp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/testing/WEB-INF/classes/rest/UserappDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/testing/WEB-INF/classes/rest/UserappDAO.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,46 +34,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Tankbeurt.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rest/CouponDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+            <state relative-caret-position="272">
+              <caret line="16" column="82" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Userapp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Resource/UserResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,10 +54,85 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Resource/TankbeurtResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="120">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Resource/CouponResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Tankbeurt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/TemporalType.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Userapp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Resource/BrandstofResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rest/UserappDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="664">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,45 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rest/TankbeurtDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Tests/TankbeurtTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Tests/UserTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Tests/CouponTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="43" selection-end-column="81" />
+            <state relative-caret-position="358">
+              <caret line="53" column="94" selection-start-line="53" selection-start-column="90" selection-end-line="53" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,34 +153,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/Coupon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="385">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/models/Brandstof.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,26 +209,26 @@
         <option value="$PROJECT_DIR$/src/main/java/jwt/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/jwt/JWTTokenNeeded.java" />
         <option value="$PROJECT_DIR$/src/main/java/Resource/BrandstoffResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rest/UserappDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jwt/AuthenticationEndpoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Userapp.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Brandstof.java" />
         <option value="$PROJECT_DIR$/src/main/java/jwt/JWTTokenNeededFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rest/BrandstofDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Resource/UserResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tests/BrandstofTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Resource/BrandstofResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Coupon.java" />
         <option value="$PROJECT_DIR$/src/main/java/rest/CouponDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/Resource/Pomp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Resource/CouponResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tests/CouponTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Resource/TankbeurtResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rest/TankbeurtDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tests/TankbeurtTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tests/UserTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jwt/AuthenticationEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/BrandstofDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Brandstof.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/UserappDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Userapp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Resource/UserResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/TankbeurtDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Resource/TankbeurtResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Coupon.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Tankbeurt.java" />
       </list>
     </option>
@@ -407,7 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserTests.CreateUser">
+  <component name="RunManager" selected="GlassFish Server.GlassFish 5.184.01">
     <configuration name="GlassFish 5.184.01" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.184.01" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -482,37 +480,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrandstofTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JEA2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.BrandstofTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BrandstofTests.Add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JEA2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.BrandstofTests" />
-      <option name="METHOD_NAME" value="Add" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BrandstofTests.Delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JEA2" />
       <extension name="coverage">
@@ -544,6 +511,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests in JEA2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JEA2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserTests.CreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JEA2" />
       <extension name="coverage">
@@ -560,13 +541,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserTests.CreateUserAsUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JEA2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.UserTests" />
+      <option name="METHOD_NAME" value="CreateUserAsUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserTests.CreateUserAsUser" />
+        <item itemvalue="JUnit.Tests in JEA2" />
         <item itemvalue="JUnit.UserTests.CreateUser" />
         <item itemvalue="JUnit.CouponTest" />
         <item itemvalue="JUnit.BrandstofTests.Delete" />
-        <item itemvalue="JUnit.BrandstofTests.Add" />
-        <item itemvalue="JUnit.BrandstofTests" />
       </list>
     </recent_temporary>
   </component>
@@ -604,7 +601,7 @@
       <workItem from="1554840919542" duration="155000" />
       <workItem from="1555582739507" duration="2488000" />
       <workItem from="1555585524356" duration="26232000" />
-      <workItem from="1555749133988" duration="917000" />
+      <workItem from="1555749133988" duration="13418000" />
     </task>
     <task id="LOCAL-00001" summary="voor jwt hell">
       <created>1553976468827</created>
@@ -676,22 +673,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555625220453</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update Tankbeurt relations">
+      <created>1555750142727</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555750142727</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BrandstofTests_Delete - 2019.04.18 at 20h 20m 35s.xml">
-      <configuration name="BrandstofTests.Delete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BrandstofTests_Delete - 2019.04.18 at 20h 22m 33s.xml">
-      <configuration name="BrandstofTests.Delete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CouponTest - 2019.04.18 at 22h 10m 59s.xml">
-      <configuration name="CouponTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CouponTest - 2019.04.18 at 22h 11m 59s.xml">
-      <configuration name="CouponTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CouponTest - 2019.04.18 at 22h 14m 15s.xml">
       <configuration name="CouponTest" configurationId="JUnit" />
     </history-entry>
@@ -710,9 +702,21 @@
     <history-entry file="UserTests_CreateUser - 2019.04.20 at 10h 43m 56s.xml">
       <configuration name="UserTests.CreateUser" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserTests_CreateUser - 2019.04.20 at 10h 49m 43s.xml">
+      <configuration name="UserTests.CreateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTests_CreateUser - 2019.04.20 at 10h 50m 12s.xml">
+      <configuration name="UserTests.CreateUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_in_JEA2 - 2019.04.20 at 20h 59m 09s.xml">
+      <configuration name="Tests in JEA2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTests_CreateUserAsUser - 2019.04.20 at 22h 32m 15s.xml">
+      <configuration name="UserTests.CreateUserAsUser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87344000" />
+    <option name="totallyTimeSpent" value="99845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -725,8 +729,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32302773" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32302773" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -735,7 +740,7 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3279743" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.49732047" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.36441585" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -807,7 +812,8 @@
     <MESSAGE value="Brandstof &amp; Userapp TDD" />
     <MESSAGE value="Coupon TDD&#10;+ Tankbeurt Object ingericht" />
     <MESSAGE value="TankbeurtTest -&gt; Rest (Not tested yet)" />
-    <option name="LAST_COMMIT_MESSAGE" value="TankbeurtTest -&gt; Rest (Not tested yet)" />
+    <MESSAGE value="Update Tankbeurt relations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Tankbeurt relations" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
@@ -947,13 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CorsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -984,42 +983,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/BrandstofResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/AuthenticationEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jwt/JWTTokenNeededFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tests/BrandstofTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="48" selection-end-column="84" />
+        <state relative-caret-position="89">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1028,8 +1002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rest/BrandstofDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#697#698#0" expanded="true" />
@@ -1040,163 +1014,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/CouponResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/CouponDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="82" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/Pomp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/UserappDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/TankbeurtResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/TankbeurtDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tests/CouponTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="43" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tests/TankbeurtTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tests/UserTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Tankbeurt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Userapp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Coupon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Brandstof.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="-85">
+          <caret line="10" column="102" selection-start-line="10" selection-start-column="102" selection-end-line="10" selection-end-column="102" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#416#417#0" expanded="true" />
@@ -1211,6 +1032,191 @@
             <element signature="e#692#693#0" expanded="true" />
             <element signature="e#734#735#0" expanded="true" />
             <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tests/TankbeurtTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tests/UserTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tests/CouponTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tests/BrandstofTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/Pomp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/AuthenticationEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/UserappDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/CouponResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Userapp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/BrandstofResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/CouponDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="82" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/TankbeurtDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="53" column="94" selection-start-line="53" selection-start-column="90" selection-end-line="53" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/TankbeurtResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Coupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/TemporalType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Tankbeurt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

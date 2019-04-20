@@ -23,7 +23,6 @@ public class BrandstofDao {
         return Response.status(200).build();
 
     }
-
     public void update(Brandstof brandstof) {
         entityManager.merge(brandstof);
     }

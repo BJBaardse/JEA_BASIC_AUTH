@@ -2,12 +2,18 @@ package models;
 
 import models.Brandstof;
 import models.Userapp;
+
+import javax.enterprise.inject.Default;
 import javax.jws.soap.SOAPBinding;
 import javax.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Null;
 import javax.xml.registry.infomodel.User;
+import java.sql.Time;
+import java.sql.Timestamp;
+import java.util.Date;
+
 @Entity
 @NamedQueries({
         @NamedQuery(name = "Tankbeurt.getall", query = "select p from Tankbeurt p")
@@ -80,6 +86,8 @@ public class Tankbeurt {
     @Min(0)
     double prijs;
 
+    Timestamp created;
+
     public Tankbeurt(){
 
     }
@@ -97,6 +105,8 @@ public class Tankbeurt {
         calculatePrijs();
     }
     private void calculatePrijs(){
+        Date date = new Date();
+        created = new Timestamp(date.getTime());
         if(coupon == null){
             prijs = liter * brandstof.prijs;
         }

@@ -60,6 +60,7 @@ public class AuthenticationEndpoint {
         String jwt = Jwts.builder()
                 .setSubject("users/TzMUocMF4p")
                 .setExpiration(cal.getTime())
+                .claim("userid", user.getId())
                 .claim("username", user.getUsername())
                 .claim("Role", String.valueOf(user.getRole()))
                 .setIssuedAt(new Date())

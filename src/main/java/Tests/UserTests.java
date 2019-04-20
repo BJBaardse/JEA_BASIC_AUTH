@@ -67,7 +67,7 @@ public class UserTests {
                         .contentType("application/json")
                         .header(new Header("Authorization", "Bearer " + tokenShell))
                         .body(testuser)
-                        .when().post("/testing/resources/Userapp/").then().statusCode(200);
+                        .when().post("/testing/resources/Userapp/").then().statusCode(204);
 
     }
     @Test

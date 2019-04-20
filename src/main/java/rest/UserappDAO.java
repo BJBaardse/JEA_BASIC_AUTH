@@ -40,5 +40,9 @@ public class UserappDAO {
     public void delete(Userapp person) {
         entityManager.remove(person);
     }
+
+    public List<Userapp> getStations() {
+        return entityManager.createNamedQuery("Userapp.findStations", Userapp.class).getResultList();
+    }
 }
 

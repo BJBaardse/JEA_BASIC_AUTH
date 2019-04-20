@@ -34,7 +34,15 @@ public class UserResource {
 //
 //    }
 
+    @GET
+    @Path("/allstations")
+    @Produces
+    public List<Userapp> getStations(){
+        return userappDAO.getStations();
+    }
+
     @POST
+    @JWTTokenNeeded(Permissions = Role.Shell)
     @Produces("application/json")
     public void save(Userapp person) {
         userappDAO.save(person);
