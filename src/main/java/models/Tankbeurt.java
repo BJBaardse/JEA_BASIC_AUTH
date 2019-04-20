@@ -1,5 +1,7 @@
 package models;
 
+import models.Brandstof;
+import models.Userapp;
 import javax.jws.soap.SOAPBinding;
 import javax.persistence.*;
 import javax.validation.constraints.Min;
@@ -67,10 +69,13 @@ public class Tankbeurt {
     @Min(0)
     @NotNull
     int liter;
+    @ManyToOne
     @NotNull
     Brandstof brandstof;
+    @ManyToOne
     @NotNull
     Userapp user;
+    @ManyToOne
     Coupon coupon;
     @Min(0)
     double prijs;
