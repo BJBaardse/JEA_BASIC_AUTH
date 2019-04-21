@@ -18,7 +18,9 @@ import java.util.Date;
 @Entity
 @NamedQueries({
         @NamedQuery(name = "Tankbeurt.getall", query = "select p from Tankbeurt p"),
-        @NamedQuery(name = "Tankbeurt.getopenorders", query = "select p from Tankbeurt p where tankstation.id = :id and betaald = false ")
+        @NamedQuery(name = "Tankbeurt.getopenorders", query = "select p from Tankbeurt p where tankstation.id = :id and betaald = false "),
+        @NamedQuery(name = "Tankbeurt.beurtbetalen", query = "update Tankbeurt set betaald = true where id = :id"),
+        @NamedQuery(name = "Tankbeurt.getclosedorders", query = "select p from Tankbeurt p where betaald = true")
 }
 )
 public class Tankbeurt {

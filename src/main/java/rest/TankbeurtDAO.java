@@ -10,8 +10,10 @@ import models.Userapp;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
+import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
 import javax.ws.rs.container.ContainerRequestContext;
+import javax.ws.rs.core.Response;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
@@ -45,7 +47,7 @@ public class TankbeurtDAO {
 
     }
 
-    public void createTankbeurtCoupon(int brandstofid, int tankstationid,int liter, String couponstring, String token) {
+    public Response createTankbeurtCoupon(int brandstofid, int tankstationid,int liter, String couponstring, String token) {
         int userid = 0;
         try {
             userid = getuserid(token);
@@ -55,9 +57,17 @@ public class TankbeurtDAO {
         Brandstof brandstof = em.createNamedQuery("Brandstof.findone", Brandstof.class).setParameter("id", brandstofid).getSingleResult();
         Userapp user = em.createNamedQuery("Userapp.findOne", Userapp.class).setParameter("id", userid).getSingleResult();
         Userapp tankstation = em.createNamedQuery("Userapp.findOne", Userapp.class).setParameter("id", tankstationid).getSingleResult();
-        Coupon Coupon = em.createNamedQuery("Coupon.findOne", Coupon.class).setParameter("code", couponstring).getSingleResult();
+        Coupon Coupon;
+        try {
+            Coupon = em.createNamedQuery("Coupon.findOne", Coupon.class).setParameter("code", couponstring).getSingleResult();
+        }
+        catch (NoResultException e){
+            return Response.status(Response.Status.BAD_REQUEST).build();
+
+        }
         Tankbeurt beurt = new Tankbeurt(user, tankstation,brandstof, Coupon, liter);
         em.persist(beurt);
+        return Response.status(Response.Status.ACCEPTED).build();
     }
 
     public List<Tankbeurt> getOpenOrders(ContainerRequestContext requestContext) {
@@ -74,5 +84,13 @@ public class TankbeurtDAO {
         }
 
         return null;
+    }
+
+    public void beurtbetalen(int tankbeurtid) {
+        em.createNamedQuery("Tankbeurt.beurtbetalen").setParameter("id", tankbeurtid).executeUpdate();
+    }
+
+    public List<Tankbeurt> getclosedorders() {
+        return em.createNamedQuery("Tankbeurt.getclosedorders", Tankbeurt.class).getResultList();
     }
 }

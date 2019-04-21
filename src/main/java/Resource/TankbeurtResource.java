@@ -23,10 +23,26 @@ public class TankbeurtResource {
         return tankbeurtDAO.getall();
     }
     @GET
+    @Path("/closedorders")
+    @Consumes("application/json")
+    public List<Tankbeurt> getclosedorders(){
+        return tankbeurtDAO.getclosedorders();
+    }
+    @GET
     @Path("/openorders")
     @Consumes("application/json")
     public List<Tankbeurt> getopenorders(ContainerRequestContext requestContext){
         return tankbeurtDAO.getOpenOrders(requestContext);
+    }
+
+    @POST
+    @Path("/afronden")
+    @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
+    public Response beurtbetalen(
+            @FormParam("tankbeurtid") int tankbeurtid
+    ){
+        tankbeurtDAO.beurtbetalen(tankbeurtid);
+        return Response.status(Response.Status.ACCEPTED).build();
     }
 
     @POST
@@ -51,8 +67,7 @@ public class TankbeurtResource {
             @FormParam("token") String token,
             @FormParam("tankstation") String tankstationid
     ) {
-        tankbeurtDAO.createTankbeurtCoupon(Integer.parseInt(Brandstofid), Integer.parseInt(tankstationid),Integer.parseInt(liter), coupon, token);
-        return Response.status(200).build();
+        return tankbeurtDAO.createTankbeurtCoupon(Integer.parseInt(Brandstofid), Integer.parseInt(tankstationid),Integer.parseInt(liter), coupon, token);
     }
 
 }
