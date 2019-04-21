@@ -1,5 +1,7 @@
 package Resource;
 
+import jwt.JWTTokenNeeded;
+import jwt.Role;
 import models.Tankbeurt;
 import rest.TankbeurtDAO;
 
@@ -23,12 +25,14 @@ public class TankbeurtResource {
         return tankbeurtDAO.getall();
     }
     @GET
+    @JWTTokenNeeded(Permissions = Role.Shell)
     @Path("/closedorders")
     @Consumes("application/json")
     public List<Tankbeurt> getclosedorders(){
         return tankbeurtDAO.getclosedorders();
     }
     @GET
+    @JWTTokenNeeded(Permissions = Role.Tankstation)
     @Path("/openorders")
     @Consumes("application/json")
     public List<Tankbeurt> getopenorders(ContainerRequestContext requestContext){
@@ -36,6 +40,7 @@ public class TankbeurtResource {
     }
 
     @POST
+    @JWTTokenNeeded(Permissions = Role.Tankstation)
     @Path("/afronden")
     @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
     public Response beurtbetalen(
@@ -46,6 +51,7 @@ public class TankbeurtResource {
     }
 
     @POST
+    @JWTTokenNeeded(Permissions = Role.User)
     @Path("/createnocoupon")
     @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
     public Response postTankbeurt(
@@ -58,6 +64,7 @@ public class TankbeurtResource {
         return Response.status(200).build();
     }
     @POST
+    @JWTTokenNeeded(Permissions = Role.User)
     @Path("/createwithcoupon")
     @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
     public Response postTankbeurtCoupon(

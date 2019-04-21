@@ -12,7 +12,8 @@ import javax.ws.rs.DefaultValue;
 @Entity
 @NamedQueries({
         @NamedQuery(name = "Coupon.getall", query = "select p from Coupon p"),
-        @NamedQuery(name = "Coupon.findOne", query = "select p from Coupon p where p.couponCode = :code")
+        @NamedQuery(name = "Coupon.findOne", query = "select p from Coupon p where p.couponCode = :code"),
+        @NamedQuery(name = "Coupon.findOneID", query = "select p from Coupon p where p.id = :id")
 
 }
 )
@@ -68,7 +69,6 @@ public class Coupon {
     @Id
     @GeneratedValue
     int id;
-
     String couponCode;
     @ColumnDefault("True")
     boolean isValid;

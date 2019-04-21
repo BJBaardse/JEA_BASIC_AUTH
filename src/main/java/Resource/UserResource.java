@@ -35,6 +35,7 @@ public class UserResource {
 //    }
 
     @GET
+    @JWTTokenNeeded(Permissions = Role.User)
     @Path("/allstations")
     @Produces
     public List<Userapp> getStations(){

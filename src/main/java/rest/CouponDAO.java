@@ -24,4 +24,15 @@ public class CouponDAO {
     public void update(Coupon coupon) {
         em.merge(coupon);
     }
+
+    public void swapState(int couponid) {
+        Coupon coupon = em.createNamedQuery("Coupon.findOneID", Coupon.class).setParameter("id", couponid).getSingleResult();
+        if(coupon.isValid() == true){
+            coupon.setValid(false);
+        }
+        else{
+            coupon.setValid(true);
+        }
+        em.merge(coupon);
+    }
 }
