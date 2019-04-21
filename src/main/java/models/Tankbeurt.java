@@ -9,6 +9,7 @@ import javax.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Null;
+import javax.ws.rs.DefaultValue;
 import javax.xml.registry.infomodel.User;
 import java.sql.Time;
 import java.sql.Timestamp;
@@ -16,7 +17,8 @@ import java.util.Date;
 
 @Entity
 @NamedQueries({
-        @NamedQuery(name = "Tankbeurt.getall", query = "select p from Tankbeurt p")
+        @NamedQuery(name = "Tankbeurt.getall", query = "select p from Tankbeurt p"),
+        @NamedQuery(name = "Tankbeurt.getopenorders", query = "select p from Tankbeurt p where tankstation.id = :id and betaald = false ")
 }
 )
 public class Tankbeurt {
@@ -68,6 +70,23 @@ public class Tankbeurt {
         this.prijs = prijs;
     }
 
+
+    public Timestamp getCreated() {
+        return created;
+    }
+
+    public void setCreated(Timestamp created) {
+        this.created = created;
+    }
+
+    public Userapp getTankstation() {
+        return tankstation;
+    }
+
+    public void setTankstation(Userapp tankstation) {
+        this.tankstation = tankstation;
+    }
+
     @Id
     @GeneratedValue
     int id;
@@ -76,42 +95,62 @@ public class Tankbeurt {
     @NotNull
     int liter;
     @ManyToOne
-    @NotNull
     Brandstof brandstof;
     @ManyToOne
     @NotNull
     Userapp user;
+
     @ManyToOne
     Coupon coupon;
+
+
+    public boolean isBetaald() {
+        return betaald;
+    }
+
+    public void setBetaald(boolean betaald) {
+        this.betaald = betaald;
+    }
+
+    @ManyToOne
+    Userapp tankstation;
     @Min(0)
     double prijs;
 
+
+    @DefaultValue("false")
+    boolean betaald;
+
     Timestamp created;
 
-    public Tankbeurt(){
+    public Tankbeurt() {
 
     }
-    public Tankbeurt(Userapp user, Brandstof brandstof,Coupon coupon, int liter){
+
+    public Tankbeurt(Userapp user, Userapp tankstation, Brandstof brandstof, Coupon coupon, int liter) {
         this.user = user;
         this.coupon = coupon;
         this.liter = liter;
         this.brandstof = brandstof;
+        this.tankstation = tankstation;
         calculatePrijs();
     }
-    public Tankbeurt(Userapp user, Brandstof brandstof,  int liter){
+
+    public Tankbeurt(Userapp user, Userapp tankstation, Brandstof brandstof, int liter) {
         this.user = user;
         this.liter = liter;
         this.brandstof = brandstof;
+        this.tankstation = tankstation;
         calculatePrijs();
     }
-    private void calculatePrijs(){
+
+    private void calculatePrijs() {
         Date date = new Date();
         created = new Timestamp(date.getTime());
-        if(coupon == null){
+        if (coupon == null) {
             prijs = liter * brandstof.prijs;
-        }
-        else{
-            prijs = (liter * brandstof.prijs)*((100- coupon.percentOff)/100);
+        } else {
+            prijs = (liter * brandstof.prijs) * ((100 - coupon.percentOff) / 100);
         }
     }
 
