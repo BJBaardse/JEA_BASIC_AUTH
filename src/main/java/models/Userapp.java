@@ -56,6 +56,16 @@ public class Userapp {
     
     private Role role;
 
+    public String getAuthenticationKey() {
+        return AuthenticationKey;
+    }
+
+    public void setAuthenticationKey(String authenticationKey) {
+        AuthenticationKey = authenticationKey;
+    }
+
+    private String AuthenticationKey;
+
     public Userapp() {
     }
 

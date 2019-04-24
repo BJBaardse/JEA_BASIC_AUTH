@@ -8,6 +8,8 @@ import rest.UserappDAO;
 
 import javax.ejb.EJB;
 import javax.ws.rs.*;
+import javax.ws.rs.container.ContainerRequestContext;
+import javax.ws.rs.core.MediaType;
 import java.util.List;
 
 //https://blog.payara.fish/securing-a-rest-service
@@ -47,6 +49,14 @@ public class UserResource {
     @Produces("application/json")
     public void save(Userapp person) {
         userappDAO.save(person);
+    }
+
+    @GET
+    @Path("/keys")
+    @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
+    @Produces("application/json")
+    public String generateAuthkey(ContainerRequestContext requestContext){
+        return userappDAO.generateAuthKey(requestContext);
     }
 
     @PUT
