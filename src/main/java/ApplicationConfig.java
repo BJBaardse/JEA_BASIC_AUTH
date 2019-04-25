@@ -1,5 +1,6 @@
 import Resource.BrandstofResource;
 import Resource.UserResource;
+import Socket.TimeSocket;
 
 import javax.ws.rs.core.Application;
 import java.util.Set;
@@ -17,5 +18,6 @@ public class ApplicationConfig extends Application {
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(UserResource.class);
         resources.add(BrandstofResource.class);
+        resources.add(TimeSocket.class);
     }
 }

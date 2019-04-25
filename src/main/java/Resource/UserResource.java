@@ -27,14 +27,7 @@ public class UserResource {
         return userappDAO.getAll();
     }
 
-//    @GET
-//    @Produces("application/json")
-//    public Person test(){
-//        Person berend = new Person("Berend", "Baardse");
-//        userappDAO.save(berend);
-//        return berend;
-//
-//    }
+
 
     @GET
     @JWTTokenNeeded(Permissions = Role.User)
@@ -66,11 +59,11 @@ public class UserResource {
     }
 
 //    @DELETE
-//    @Path("/{id}")
-//    @Consumes("application/json")
-//    public void delete(@PathParam("id") Long id) {
-//        Userapp person = userappDAO.find(id);
-//        userappDAO.delete(person);
-//    }
+////    @Path("/{id}")
+////    @Consumes("application/json")
+////    public void delete(@PathParam("id") Long id) {
+////        Userapp person = userappDAO.find(id);
+////        userappDAO.delete(person);
+////    }
 }
 
