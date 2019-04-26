@@ -1,5 +1,6 @@
 package Socket;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.websocket.OnOpen;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
@@ -11,6 +12,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+@ApplicationScoped
 @ServerEndpoint("clock")
 public class TimeSocket {
 
