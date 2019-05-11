@@ -13,7 +13,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 @ApplicationScoped
-@ServerEndpoint("clock")
+@ServerEndpoint("scoket")
 public class TimeSocket {
 
     static ScheduledExecutorService timer =
