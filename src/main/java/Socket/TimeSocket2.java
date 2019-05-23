@@ -29,6 +29,12 @@ public class TimeSocket2 {
         timer.cancel();
     }
 
+    @OnMessage
+    public void onMessage(Session session, String message){
+        timer.cancel();
+        timer = new Timer();
+        timer.schedule(new sendTime(session), 0, Integer.parseInt(message));
+    }
     @OnError
     public void onError(Session session, Throwable throwable) {
         timer.cancel();

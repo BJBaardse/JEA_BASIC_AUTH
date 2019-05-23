@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 public class bgroupController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("helloMessage", "Hello customer. What can I do for you?");
+        req.setAttribute("helloMessage", "Hello customer. What can I do for you? USERS B");
         req.getRequestDispatcher("/WEB-INF/hello.jsp").forward(req, resp);
     }
 }

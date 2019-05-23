@@ -96,6 +96,7 @@ public class Tankbeurt {
     @Min(0)
     @NotNull
     int liter;
+    
     @ManyToOne
     Brandstof brandstof;
     @ManyToOne

@@ -7,15 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4244f4e6-875a-4248-bcb9-444a2284b98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Socket/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Socket/MessageDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Socket/MessageEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Socket/TimeSocket2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Socket/TimeSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/yes/TimeSocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/testing/WEB-INF/classes/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/testing/WEB-INF/classes/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/StartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/bgroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/bgroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Socket/TimeSocket2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Socket/TimeSocket2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Tankbeurt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Tankbeurt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/testing/WEB-INF/classes/Controllers/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/testing/WEB-INF/classes/Controllers/StartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/testing/WEB-INF/classes/Controllers/bgroupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/testing/WEB-INF/classes/Controllers/bgroupController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,52 +25,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Socket/TimeSocket2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#1561#1562#0" expanded="true" />
-                <element signature="e#1596#1597#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/8.0/javaee-api-8.0.jar!/javax/websocket/Session.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-586">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Socket/MessageEncoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Socket/MessageDecoder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Resource/BrandstofResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rest/BrandstofDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rest/CouponDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rest/TankbeurtDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="79" column="57" selection-start-line="76" selection-start-column="12" selection-end-line="79" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Resource/CouponResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Resource/TankbeurtResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Socket/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="323">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#94#95#0" expanded="true" />
@@ -101,29 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Socket/TimeSocket2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jwt/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/bgroupController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="238">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,22 +151,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jwt/AuthenticationEndpoint.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Resource/UserResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="289">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,15 +187,12 @@
         <option value="$PROJECT_DIR$/src/main/java/JAX/TestIdentityStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/JAX/JaxRsActivator.java" />
         <option value="$PROJECT_DIR$/../JEA/payara5/glassfish/domains/domain1/config/default-web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/bgroupController.java" />
         <option value="$PROJECT_DIR$/src/command.sh" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/vue.vue" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/vue.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/vue.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Controllers/VueController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controllers/loginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/StartController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Resource/Secured.java" />
         <option value="$PROJECT_DIR$/src/main/java/jwt/AuthorizationFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/CorsFilter.java" />
@@ -209,11 +213,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Tests/UserTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/rest/BrandstofDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Brandstof.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Tankbeurt.java" />
         <option value="$PROJECT_DIR$/src/main/java/rest/TankbeurtDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Coupon.java" />
         <option value="$PROJECT_DIR$/src/main/java/rest/CouponDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Resource/TankbeurtResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/Resource/BrandstofResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Userapp.java" />
         <option value="$PROJECT_DIR$/src/main/java/jwt/AuthenticationEndpoint.java" />
@@ -227,6 +229,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Socket/MessageDecoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/Socket/MessageEncoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/Socket/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Tankbeurt.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/StartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/bgroupController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Resource/TankbeurtResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/Socket/TimeSocket2.java" />
       </list>
     </option>
@@ -239,10 +246,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="687" />
-    <option name="y" value="39" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="1190" />
+    <option name="width" value="1220" />
+    <option name="height" value="655" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -250,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -380,7 +387,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,7 +435,7 @@
   </component>
   <component name="RunManager" selected="GlassFish Server.GlassFish 5.184.01">
     <configuration name="GlassFish 5.184.01" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.184.01" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="JEA2:war exploded">
           <settings>
@@ -632,7 +638,14 @@
       <workItem from="1556273060740" duration="3180000" />
       <workItem from="1556893367471" duration="2880000" />
       <workItem from="1557471599912" duration="1494000" />
-      <workItem from="1557572335850" duration="7289000" />
+      <workItem from="1557572335850" duration="7483000" />
+      <workItem from="1557665318481" duration="1098000" />
+      <workItem from="1557953534024" duration="2440000" />
+      <workItem from="1557955996295" duration="2000" />
+      <workItem from="1557956734711" duration="1431000" />
+      <workItem from="1557992380453" duration="1587000" />
+      <workItem from="1558515590564" duration="236000" />
+      <workItem from="1558638222493" duration="2441000" />
     </task>
     <task id="LOCAL-00001" summary="voor jwt hell">
       <created>1553976468827</created>
@@ -753,7 +766,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556228404328</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Clock socket connection works">
+      <created>1557599230243</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1557599230243</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -789,7 +809,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151970000" />
+    <option name="totallyTimeSpent" value="161408000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -804,7 +824,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35607675" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15618336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -813,10 +833,10 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3279743" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39978564" />
+      <window_info active="true" anchor="bottom" id="Debug" order="2" visible="true" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49932885" visible="true" weight="0.36334404" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49932885" weight="0.36334404" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3279743" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3282123" />
@@ -892,7 +912,8 @@
     <MESSAGE value="Alles werkt behalve users updaten op administratie pagina" />
     <MESSAGE value="2 Factor support" />
     <MESSAGE value="Time socket" />
-    <option name="LAST_COMMIT_MESSAGE" value="Time socket" />
+    <MESSAGE value="Clock socket connection works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clock socket connection works" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
@@ -962,52 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/loginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/BrandstofDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Brandstof.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="10" column="102" selection-start-line="10" selection-start-column="102" selection-end-line="10" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tests/UserTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -1026,16 +1001,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Resource/Pomp.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/StartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jwt/JWTTokenNeeded.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1043,98 +1008,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Tankbeurt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="113" selection-start-line="22" selection-start-column="113" selection-end-line="22" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/UserappDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/JWTTokenNeededFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/TankbeurtDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="79" column="57" selection-start-line="76" selection-start-column="12" selection-end-line="79" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/CouponDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Coupon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/BrandstofResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Userapp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1169,30 +1042,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/CouponResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tests/BrandstofTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/TankbeurtResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="79" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1219,27 +1072,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/UserResource.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/8.0/javaee-api-8.0.jar!/javax/websocket/Session.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="102">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Socket/MessageEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Socket/MessageDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/AuthenticationEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        <state relative-caret-position="595">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/JWTTokenNeededFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Brandstof.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="102" selection-start-line="10" selection-start-column="102" selection-end-line="10" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,32 +1136,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/bgroupController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="2176">
+          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/UserappDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Socket/MessageDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Socket/MessageEncoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/loginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Coupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="84" column="22" lean-forward="true" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Userapp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Tankbeurt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="97" column="14" lean-forward="true" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/StartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/bgroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="88" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/BrandstofResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/BrandstofDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/CouponDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/TankbeurtDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="79" column="57" selection-start-line="76" selection-start-column="12" selection-end-line="79" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/CouponResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/TankbeurtResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1284,7 +1307,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Socket/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="323">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#94#95#0" expanded="true" />
@@ -1303,43 +1326,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/AuthenticationEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resource/UserResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="289">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/8.0/javaee-api-8.0.jar!/javax/websocket/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-586">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Socket/TimeSocket2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="238">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#1561#1562#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
           </folding>
         </state>
       </provider>

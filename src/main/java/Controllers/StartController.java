@@ -14,7 +14,7 @@ public class StartController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("Got a requestt");
-        req.setAttribute("helloMessage", "Hello customer. What can I do for you?");
+        req.setAttribute("helloMessage", "Hello customer. What can I do for you? USERS A");
         req.getRequestDispatcher("/WEB-INF/hello.jsp").forward(req, resp);
     }
 }
